@@ -1,0 +1,152 @@
+Last login: Sun Sep 14 15:04:38 on console
+sahilbagul@192 ~ % mkdir learn-and-earn
+cd learn-and-earn
+
+sahilbagul@192 learn-and-earn % cd ~/Downloads/LearnAndEarn
+
+sahilbagul@192 LearnAndEarn % git init
+git remote add origin https://github.com/SahilBagul7641/learn-and-earn.git
+git add .
+git commit -m "Initial commit - Add existing project files"
+git push -u origin main
+
+Reinitialized existing Git repository in /Users/sahilbagul/Downloads/LearnAndEarn/.git/
+error: remote origin already exists.
+[main 5a8e41c] Initial commit - Add existing project files
+ 1 file changed, 51879 insertions(+)
+ create mode 100644 .config/.semgrep/semgrep_rules.json
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/Sahil-Bagul/visual-ui-duplicator/'
+sahilbagul@192 LearnAndEarn % git remote set-url origin https://github.com/SahilBagul7641/learn-and-earn.git
+
+sahilbagul@192 LearnAndEarn %  git remote -v
+
+origin	https://github.com/SahilBagul7641/learn-and-earn.git (fetch)
+origin	https://github.com/SahilBagul7641/learn-and-earn.git (push)
+sahilbagul@192 LearnAndEarn % git remote set-url origin https://github.com/SahilBagul7641/learn-and-earn.git
+
+sahilbagul@192 LearnAndEarn % git push -u origin main
+
+Username for 'https://github.com': SahilBagul7641
+Password for 'https://SahilBagul7641@github.com': 
+Enumerating objects: 479, done.
+Counting objects: 100% (479/479), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (364/364), done.
+Writing objects: 100% (479/479), 757.32 KiB | 20.47 MiB/s, done.
+Total 479 (delta 181), reused 297 (delta 81), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (181/181), done.
+remote: fatal: did not receive expected object ce4151db43e511733e24b1daee70d348aaa48e6b
+error: remote unpack failed: index-pack failed
+To https://github.com/SahilBagul7641/learn-and-earn.git
+ ! [remote rejected] main -> main (failed)
+error: failed to push some refs to 'https://github.com/SahilBagul7641/learn-and-earn.git'
+sahilbagul@192 LearnAndEarn % git push -u origin main
+
+Enumerating objects: 479, done.
+Counting objects: 100% (479/479), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (364/364), done.
+Writing objects: 100% (479/479), 757.32 KiB | 19.42 MiB/s, done.
+Total 479 (delta 181), reused 297 (delta 81), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (181/181), done.
+remote: fatal: did not receive expected object ce4151db43e511733e24b1daee70d348aaa48e6b
+error: remote unpack failed: index-pack failed
+To https://github.com/SahilBagul7641/learn-and-earn.git
+ ! [remote rejected] main -> main (failed)
+error: failed to push some refs to 'https://github.com/SahilBagul7641/learn-and-earn.git'
+sahilbagul@192 LearnAndEarn % git config --global credential.helper osxkeychain
+
+sahilbagul@192 LearnAndEarn % git push origin main --force
+
+Enumerating objects: 479, done.
+Counting objects: 100% (479/479), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (364/364), done.
+Writing objects: 100% (479/479), 757.32 KiB | 20.47 MiB/s, done.
+Total 479 (delta 181), reused 297 (delta 81), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (181/181), done.
+remote: fatal: did not receive expected object ce4151db43e511733e24b1daee70d348aaa48e6b
+error: remote unpack failed: index-pack failed
+To https://github.com/SahilBagul7641/learn-and-earn.git
+ ! [remote rejected] main -> main (failed)
+error: failed to push some refs to 'https://github.com/SahilBagul7641/learn-and-earn.git'
+sahilbagul@192 LearnAndEarn % git lfs track
+git lfs ls-files
+
+git: 'lfs' is not a git command. See 'git --help'.
+
+The most similar command is
+	refs
+git: 'lfs' is not a git command. See 'git --help'.
+
+The most similar command is
+	refs
+sahilbagul@192 LearnAndEarn % git clone https://github.com/SahilBagul7641/learn-and-earn.git
+cd learn-and-earn
+
+Cloning into 'learn-and-earn'...
+warning: You appear to have cloned an empty repository.
+sahilbagul@192 learn-and-earn % git add .
+git commit -m "Refresh commit"
+git push origin main
+
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/SahilBagul7641/learn-and-earn.git'
+sahilbagul@192 learn-and-earn % cd ~/Downloads/LearnAndEarn
+
+sahilbagul@192 LearnAndEarn % rm -rf .git
+
+sahilbagul@192 LearnAndEarn % git init
+git remote add origin https://github.com/SahilBagul7641/learn-and-earn.git
+
+Initialized empty Git repository in /Users/sahilbagul/Downloads/LearnAndEarn/.git/
+sahilbagul@192 LearnAndEarn % git add .
+git commit -m "Initial commit - add full project files"
+
+error: 'learn-and-earn/' does not have a commit checked out
+fatal: adding files failed
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.config/
+	.env.example
+	.gitignore
+	.replit
+	README.md
+	attached_assets/
+	bun.lock
+	components.json
+	drizzle.config.ts
+	eslint.config.js
+	index.html
+	learn-and-earn/
+	package-lock.json
+	package.json
+	postcss.config.js
+	public/
+	replit.md
+	server/
+	shared/
+	src/
+	supabase/
+	tailwind.config.ts
+	tsconfig.app.json
+	tsconfig.json
+	tsconfig.node.json
+	vite.config.ts
+
+nothing added to commit but untracked files present (use "git add" to track)
+sahilbagul@192 LearnAndEarn % git push -u origin main
+
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/SahilBagul7641/learn-and-earn.git'
+sahilbagul@192 LearnAndEarn % x
