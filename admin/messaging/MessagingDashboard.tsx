@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/ui/tabs';
 import NotificationComposer from './NotificationComposer';
 import TelegramBot from './TelegramBot';
 import { Bell, MessageCircle } from 'lucide-react';

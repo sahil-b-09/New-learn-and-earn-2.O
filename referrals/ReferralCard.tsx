@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
-import { useToast } from '@/hooks/use-toast';
+import { Button } from '@/ui/button';
+import { Popover, PopoverContent, PopoverTrigger } from '@/ui/popover';
+import { useToast } from '@/ui/use-toast';
 import { Share2, MessageCircle, Phone, Send, Copy } from 'lucide-react';
 
 interface ReferralCardProps {

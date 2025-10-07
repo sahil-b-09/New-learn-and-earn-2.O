@@ -1,15 +1,15 @@
 
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
-import SEOHead from '@/components/seo/SEOHead';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import Header from '@/layout/Header';
+import Footer from '@/layout/Footer';
+import SEOHead from '@/seo/SEOHead';
+import { Button } from '@/ui/button';
+import { Card, CardContent } from '@/ui/card';
+import { Badge } from '@/ui/badge';
 import { useAuth } from '@/context/AuthContext';
 import { supabase } from '@/integrations/supabase/client';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '@/ui/use-toast';
 import { BookOpen, Clock, Users, Star, Play } from 'lucide-react';
 
 interface Course {

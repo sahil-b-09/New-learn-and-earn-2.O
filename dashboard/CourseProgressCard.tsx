@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Progress } from '@/components/ui/progress';
+import { Button } from '@/ui/button';
+import { Progress } from '@/ui/progress';
 import { BookOpen, ChevronRight, AlertCircle } from 'lucide-react';
 import { CourseWithProgress } from '@/types/course';
 

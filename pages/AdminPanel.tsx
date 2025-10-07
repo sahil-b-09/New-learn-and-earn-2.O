@@ -2,22 +2,22 @@
 import React from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { Navigate } from 'react-router-dom';
-import UnifiedHeader from '@/components/layout/UnifiedHeader';
-import Footer from '@/components/layout/Footer';
-import GrantAccessForm from '@/components/admin/GrantAccessForm';
-import GrantCourseAccess from '@/components/admin/GrantCourseAccess';
-import ContentManagement from '@/components/admin/ContentManagement';
-import AdminManagement from '@/components/admin/AdminManagement';
-import EnhancedAnalyticsDashboard from '@/components/admin/analytics/EnhancedAnalyticsDashboard';
-import SupportDashboard from '@/components/admin/support/SupportDashboard';
-import PaymentsDashboard from '@/components/admin/payments/PaymentsDashboard';
-import FinancialManagementDashboard from '@/components/admin/finance/FinancialManagementDashboard';
-import UserManagement from '@/components/admin/users/UserManagement';
-import MessagingDashboard from '@/components/admin/messaging/MessagingDashboard';
-import MarketingDisplayDashboard from '@/components/admin/marketing/MarketingDisplayDashboard';
+import UnifiedHeader from '@/layout/UnifiedHeader';
+import Footer from '@/layout/Footer';
+import GrantAccessForm from '@/admin/GrantAccessForm';
+import GrantCourseAccess from '@/admin/GrantCourseAccess';
+import ContentManagement from '@/admin/ContentManagement';
+import AdminManagement from '@/admin/AdminManagement';
+import EnhancedAnalyticsDashboard from '@/admin/analytics/EnhancedAnalyticsDashboard';
+import SupportDashboard from '@/admin/support/SupportDashboard';
+import PaymentsDashboard from '@/admin/payments/PaymentsDashboard';
+import FinancialManagementDashboard from '@/admin/finance/FinancialManagementDashboard';
+import UserManagement from '@/admin/users/UserManagement';
+import MessagingDashboard from '@/admin/messaging/MessagingDashboard';
+import MarketingDisplayDashboard from '@/admin/marketing/MarketingDisplayDashboard';
 import { useQuery } from '@tanstack/react-query';
 import { supabase } from '@/integrations/supabase/client';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/ui/tabs';
 import { 
   Activity,
   Settings,
@@ -36,7 +36,7 @@ import {
   Database,
   Briefcase
 } from 'lucide-react';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Alert, AlertDescription, AlertTitle } from '@/ui/alert';
 
 const AdminPanel: React.FC = () => {
   const { user, isAdmin: contextIsAdmin, isLoading: authLoading } = useAuth();

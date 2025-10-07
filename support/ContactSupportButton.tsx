@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/ui/button';
 import { MessageSquare } from 'lucide-react';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/ui/dialog';
 import SupportRequestForm from './SupportRequestForm';
 import UserSupportTickets from './UserSupportTickets';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/ui/tabs';
 
 const ContactSupportButton: React.FC = () => {
   const [dialogOpen, setDialogOpen] = useState(false);

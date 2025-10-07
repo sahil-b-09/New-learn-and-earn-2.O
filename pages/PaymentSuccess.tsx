@@ -1,9 +1,9 @@
 
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import UnifiedHeader from '@/components/layout/UnifiedHeader';
-import Footer from '@/components/layout/Footer';
-import { Button } from '@/components/ui/button';
+import UnifiedHeader from '@/layout/UnifiedHeader';
+import Footer from '@/layout/Footer';
+import { Button } from '@/ui/button';
 
 const PaymentSuccess: React.FC = React.memo(() => {
   const { state } = useLocation();

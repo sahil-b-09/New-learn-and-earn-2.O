@@ -8,16 +8,16 @@ import {
   TableHead, 
   TableHeader, 
   TableRow 
-} from '@/components/ui/table';
+} from '@/ui/table';
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from '@/components/ui/dialog';
-import { Badge } from '@/components/ui/badge';
+} from '@/ui/dialog';
+import { Badge } from '@/ui/badge';
 import { Loader2, MessageCircle } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/ui/button';
 import { formatDistanceToNow } from 'date-fns';
 
 const statusVariants = {

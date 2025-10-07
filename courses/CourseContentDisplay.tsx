@@ -1,10 +1,10 @@
 
 import React, { useState, useMemo } from 'react';
 import { CheckCircle, BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
-import { Progress } from '@/components/ui/progress';
-import { Button } from '@/components/ui/button';
+import { Progress } from '@/ui/progress';
+import { Button } from '@/ui/button';
 import { CourseWithProgress } from '@/types/course';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/ui/accordion';
 
 interface CourseContentDisplayProps {
   course: CourseWithProgress;

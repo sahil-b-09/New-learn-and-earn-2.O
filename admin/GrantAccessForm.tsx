@@ -1,11 +1,11 @@
 
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Alert, AlertDescription } from '@/ui/alert';
 import { Loader2 } from 'lucide-react';
-import { Checkbox } from '@/components/ui/checkbox';
-import { useToast } from '@/hooks/use-toast';
+import { Checkbox } from '@/ui/checkbox';
+import { useToast } from '@/ui/use-toast';
 import { supabase } from '@/integrations/supabase/client';
 
 interface Course {

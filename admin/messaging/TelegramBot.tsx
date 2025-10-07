@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card';
-import { Alert, AlertTitle, AlertDescription } from '@/components/ui/alert';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/ui/card';
+import { Alert, AlertTitle, AlertDescription } from '@/ui/alert';
 import { Loader2, AlertCircle, Check } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from 'sonner';

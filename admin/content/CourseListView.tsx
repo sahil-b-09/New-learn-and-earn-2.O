@@ -1,10 +1,10 @@
 
-import React, { useState } from "react";
-import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { Course, getAllCourses, deleteCourse, publishCourse, unpublishCourse } from "@/services/courseManagementService";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Trash, Edit, EyeOff, Eye, Loader2, Plus, Search } from "lucide-react";
+import React, { useState } from 'react';
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { Course, getAllCourses, deleteCourse, publishCourse, unpublishCourse } from '@/services/courseManagementService';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Trash, Edit, EyeOff, Eye, Loader2, Plus, Search } from 'lucide-react';
 import {
   Table,
   TableBody,
@@ -13,7 +13,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
+} from '@/ui/table';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -23,11 +23,11 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
-import { Badge } from "@/components/ui/badge";
-import { toast } from "sonner";
-import CourseForm from "./CourseForm";
-import CourseDetailView from "./CourseDetailView";
+} from '@/ui/alert-dialog';
+import { Badge } from '@/ui/badge';
+import { toast } from 'sonner';
+import CourseForm from './CourseForm';
+import CourseDetailView from './CourseDetailView';
 
 interface CourseListViewProps {
   onCreateCourse?: () => void;

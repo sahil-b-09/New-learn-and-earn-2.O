@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import HeaderWithNotifications from '@/components/layout/HeaderWithNotifications';
-import Footer from '@/components/layout/Footer';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Button } from '@/components/ui/button';
+import HeaderWithNotifications from '@/layout/HeaderWithNotifications';
+import Footer from '@/layout/Footer';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/ui/tabs';
+import { Button } from '@/ui/button';
 
 const Policies: React.FC = () => {
   const navigate = useNavigate();

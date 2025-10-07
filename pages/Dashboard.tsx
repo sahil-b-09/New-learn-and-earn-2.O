@@ -1,15 +1,15 @@
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import UnifiedHeader from '@/components/layout/UnifiedHeader';
-import Footer from '@/components/layout/Footer';
-import CourseCard from '@/components/courses/CourseCard';
-import WelcomeCard from '@/components/dashboard/WelcomeCard';
+import UnifiedHeader from '@/layout/UnifiedHeader';
+import Footer from '@/layout/Footer';
+import CourseCard from '@/courses/CourseCard';
+import WelcomeCard from '@/dashboard/WelcomeCard';
 import { useOptimizedDashboard } from '@/hooks/useOptimizedDashboard';
 import { useAuth } from '@/context/AuthContext';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '@/ui/card';
 import { BookOpen } from 'lucide-react';
-import { DashboardSkeleton } from '@/components/ui/loading-skeleton';
+import { DashboardSkeleton } from '@/ui/loading-skeleton';
 import { toast } from 'sonner';
 
 const Dashboard: React.FC = () => {

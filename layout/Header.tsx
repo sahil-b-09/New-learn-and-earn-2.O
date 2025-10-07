@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/context/AuthContext';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/ui/button';
 import { Menu, Shield } from 'lucide-react';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '@/ui/use-toast';
 
 // Import the logo
 import logoImage from '/lovable-uploads/629a36a7-2859-4c33-9657-12a1dfea41ed.png';

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/ui/card';
 import {
   LineChart,
   Line,
@@ -17,7 +17,7 @@ import {
   TooltipProps
 } from 'recharts';
 import { AnalyticsMetric } from '@/services/analyticsService';
-import { Skeleton } from '@/components/ui/skeleton';
+import { Skeleton } from '@/ui/skeleton';
 
 interface DataKey {
   key: string;

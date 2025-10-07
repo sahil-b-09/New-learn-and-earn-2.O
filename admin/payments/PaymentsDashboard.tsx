@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
+import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/ui/tabs';
 import { supabase } from '@/integrations/supabase/client';
 import { CreditCard, ArrowUpRight, ArrowDownLeft, HelpCircle, Loader2, Download, RefreshCw } from 'lucide-react';
 import {
@@ -11,19 +11,19 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/table';
-import { Badge } from '@/components/ui/badge';
+} from '@/ui/table';
+import { Badge } from '@/ui/badge';
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogDescription,
-} from '@/components/ui/dialog';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { useToast } from '@/hooks/use-toast';
+} from '@/ui/dialog';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/ui/select';
+import { useToast } from '@/ui/use-toast';
 import PayoutRequestsManagement from './PayoutRequestsManagement';
 
 interface Purchase {

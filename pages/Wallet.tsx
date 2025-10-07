@@ -2,12 +2,12 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { Navigate } from 'react-router-dom';
-import UnifiedHeader from '@/components/layout/UnifiedHeader';
-import Footer from '@/components/layout/Footer';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import UnifiedHeader from '@/layout/UnifiedHeader';
+import Footer from '@/layout/Footer';
+import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
 import { Wallet as WalletIcon, TrendingUp, Download } from 'lucide-react';
-import WithdrawFunds from '@/components/wallet/WithdrawFunds';
-import PayoutHistory from '@/components/wallet/PayoutHistory';
+import WithdrawFunds from '@/wallet/WithdrawFunds';
+import PayoutHistory from '@/wallet/PayoutHistory';
 import { getUserWallet, getWalletTransactions, type WalletData, type WalletTransaction } from '@/services/walletService';
 import { toast } from 'sonner';
 

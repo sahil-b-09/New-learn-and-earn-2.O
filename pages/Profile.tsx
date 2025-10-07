@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { Navigate } from 'react-router-dom';
-import UnifiedHeader from '@/components/layout/UnifiedHeader';
-import Footer from '@/components/layout/Footer';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import UnifiedHeader from '@/layout/UnifiedHeader';
+import Footer from '@/layout/Footer';
+import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
+import { Badge } from '@/ui/badge';
 import { 
   User, 
   Mail, 
@@ -15,8 +15,8 @@ import {
   Shield,
   Wallet
 } from 'lucide-react';
-import ContactSupportButton from '@/components/support/ContactSupportButton';
-import UserSupportTickets from '@/components/support/UserSupportTickets';
+import ContactSupportButton from '@/support/ContactSupportButton';
+import UserSupportTickets from '@/support/UserSupportTickets';
 import { supabase } from '@/integrations/supabase/client';
 import { formatDistanceToNow } from 'date-fns';
 

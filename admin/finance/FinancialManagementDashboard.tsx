@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Badge } from '@/components/ui/badge';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Progress } from '@/components/ui/progress';
+import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/ui/tabs';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Badge } from '@/ui/badge';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/ui/select';
+import { Alert, AlertDescription } from '@/ui/alert';
+import { Progress } from '@/ui/progress';
 import { 
   DollarSign, 
   TrendingUp, 

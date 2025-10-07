@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { Lesson, getLessonsForModule, deleteLesson } from '@/services/courseManagementService';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/ui/button';
 import {
   Table,
   TableBody,
@@ -10,7 +10,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/table';
+} from '@/ui/table';
 import { 
   Edit,
   Trash,
@@ -27,7 +27,7 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@/components/ui/alert-dialog';
+} from '@/ui/alert-dialog';
 import { toast } from 'sonner';
 import LessonForm from './LessonForm';
 

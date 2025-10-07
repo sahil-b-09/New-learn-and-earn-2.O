@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import * as z from 'zod';
 import { supabase } from '@/integrations/supabase/client';
 import { useAuth } from '@/context/AuthContext';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '@/ui/use-toast';
 import {
   Form,
   FormControl,
@@ -13,10 +13,10 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '@/components/ui/form';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
+} from '@/ui/form';
+import { Input } from '@/ui/input';
+import { Button } from '@/ui/button';
+import { RadioGroup, RadioGroupItem } from '@/ui/radio-group';
 import { Loader2 } from 'lucide-react';
 
 const upiSchema = z.object({

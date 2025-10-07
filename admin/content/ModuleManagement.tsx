@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { Module, Course, getModulesForCourse, deleteModule } from '@/services/courseManagementService';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
 import { 
   ChevronDown, 
   ChevronUp, 
@@ -18,7 +18,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@/components/ui/accordion';
+} from '@/ui/accordion';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -28,7 +28,7 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@/components/ui/alert-dialog';
+} from '@/ui/alert-dialog';
 import { toast } from 'sonner';
 import LessonManagement from './LessonManagement';
 import ModuleForm from './ModuleForm';

@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { Navigate, useNavigate } from 'react-router-dom';
-import UnifiedHeader from '@/components/layout/UnifiedHeader';
-import Footer from '@/components/layout/Footer';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import UnifiedHeader from '@/layout/UnifiedHeader';
+import Footer from '@/layout/Footer';
+import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
+import { Button } from '@/ui/button';
 import { BookOpen, Clock, CheckCircle, ArrowRight } from 'lucide-react';
 import { getUserCourses, type CourseWithProgress } from '@/services/courseContentService';
 import { toast } from 'sonner';

@@ -1,9 +1,9 @@
 
 import React from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/ui/card';
+import { Alert, AlertDescription, AlertTitle } from '@/ui/alert';
 import { Check, Copy, AlertTriangle } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/ui/button';
 import { useState } from 'react';
 
 const TelegramBotGuide: React.FC = () => {

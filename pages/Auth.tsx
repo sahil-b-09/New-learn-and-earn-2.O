@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '@/context/AuthContext';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import { useToast } from '@/hooks/use-toast';
-import { Checkbox } from '@/components/ui/checkbox';
+import { Input } from '@/ui/input';
+import { Button } from '@/ui/button';
+import { useToast } from '@/ui/use-toast';
+import { Checkbox } from '@/ui/checkbox';
 
 const Auth: React.FC = () => {
   const [isLogin, setIsLogin] = useState(true);

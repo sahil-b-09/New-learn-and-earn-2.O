@@ -1,8 +1,8 @@
 
 import React from 'react';
-import HeaderWithNotifications from '@/components/layout/HeaderWithNotifications';
-import Footer from '@/components/layout/Footer';
-import FeedbackForm from '@/components/feedback/FeedbackForm';
+import HeaderWithNotifications from '@/layout/HeaderWithNotifications';
+import Footer from '@/layout/Footer';
+import FeedbackForm from '@/feedback/FeedbackForm';
 import { MessageSquare } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 

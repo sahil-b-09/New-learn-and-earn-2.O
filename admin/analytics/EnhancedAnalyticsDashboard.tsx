@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
-import { Button } from '@/components/ui/button';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Badge } from '@/components/ui/badge';
+import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/ui/tabs';
+import { Button } from '@/ui/button';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/ui/select';
+import { Badge } from '@/ui/badge';
 import { 
   TrendingUp, 
   TrendingDown, 

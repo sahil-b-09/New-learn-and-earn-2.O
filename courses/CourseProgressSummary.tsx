@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Progress } from '@/components/ui/progress';
+import { Progress } from '@/ui/progress';
 import { BookOpen, CheckCircle, Clock } from 'lucide-react';
 import { CourseWithProgress } from '@/types/course';
 

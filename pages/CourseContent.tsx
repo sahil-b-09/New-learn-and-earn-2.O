@@ -2,13 +2,13 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/context/AuthContext';
-import UnifiedHeader from '@/components/layout/UnifiedHeader';
-import Footer from '@/components/layout/Footer';
-import WebCourseContent from '@/components/courses/WebCourseContent';
+import UnifiedHeader from '@/layout/UnifiedHeader';
+import Footer from '@/layout/Footer';
+import WebCourseContent from '@/courses/WebCourseContent';
 import { supabase } from '@/integrations/supabase/client';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/ui/button';
 import { ArrowLeft, AlertCircle } from 'lucide-react';
-import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Alert, AlertDescription } from '@/ui/alert';
 
 interface Course {
   id: string;

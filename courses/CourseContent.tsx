@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { CheckCircle, BookOpen } from 'lucide-react';
-import { Progress } from '@/components/ui/progress';
-import { Button } from '@/components/ui/button';
+import { Progress } from '@/ui/progress';
+import { Button } from '@/ui/button';
 import { Module, Lesson, UserProgress } from '@/types/course';
 
 interface LessonItemProps {

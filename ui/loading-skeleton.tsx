@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Skeleton } from '@/components/ui/skeleton';
+import { Skeleton } from '@/ui/skeleton';
 
 export const DashboardSkeleton: React.FC = () => (
   <div className="space-y-6">

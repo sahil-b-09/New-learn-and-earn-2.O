@@ -1,6 +1,6 @@
 import React from 'react';
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Button } from '@/components/ui/button';
+import { Alert, AlertDescription } from '@/ui/alert';
+import { Button } from '@/ui/button';
 import { ShieldX, ArrowLeft } from 'lucide-react';
 import { UserRole, useRoleGuard } from '@/lib/rbac';
 

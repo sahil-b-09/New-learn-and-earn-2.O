@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Switch } from '@/components/ui/switch';
-import { Badge } from '@/components/ui/badge';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Label } from '@/components/ui/label';
-import { useToast } from '@/hooks/use-toast';
+import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Switch } from '@/ui/switch';
+import { Badge } from '@/ui/badge';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/ui/dialog';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/ui/form';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/ui/select';
+import { Label } from '@/ui/label';
+import { useToast } from '@/ui/use-toast';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
@@ -26,7 +26,7 @@ import {
 } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from 'sonner';
-import { AccessGuard } from '@/components/ui/access-guard';
+import { AccessGuard } from '@/ui/access-guard';
 import { requireAdmin } from '@/lib/rbac';
 
 const MarketingDisplaySchema = z.object({

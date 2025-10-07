@@ -1,13 +1,13 @@
 
-import React, { useState } from "react";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import * as z from "zod";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { Course, createCourse, updateCourse } from "@/services/courseManagementService";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import * as z from 'zod';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { Course, createCourse, updateCourse } from '@/services/courseManagementService';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Textarea } from '@/ui/textarea';
 import {
   Form,
   FormControl,
@@ -16,17 +16,17 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
+} from '@/ui/form';
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogFooter,
-} from "@/components/ui/dialog";
-import { Loader2, Save } from "lucide-react";
-import { Switch } from "@/components/ui/switch";
-import { toast } from "sonner";
+} from '@/ui/dialog';
+import { Loader2, Save } from 'lucide-react';
+import { Switch } from '@/ui/switch';
+import { toast } from 'sonner';
 
 const courseFormSchema = z.object({
   title: z.string().min(3, "Title must be at least 3 characters"),

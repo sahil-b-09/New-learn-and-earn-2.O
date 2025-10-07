@@ -1,15 +1,15 @@
 
 import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Textarea } from '@/ui/textarea';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select';
+} from '@/ui/select';
 import {
   Card,
   CardContent,
@@ -17,7 +17,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card';
+} from '@/ui/card';
 import { useAuth } from '@/context/AuthContext';
 import { createNotificationForAll } from '@/services/notificationService';
 import { Loader2 } from 'lucide-react';

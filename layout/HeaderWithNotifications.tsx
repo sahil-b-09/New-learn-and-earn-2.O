@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Bell, Menu, X, Shield } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/ui/button';
 import { useAuth } from '@/context/AuthContext';
 import { supabase } from '@/integrations/supabase/client';
 import {
@@ -12,11 +12,11 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
-import { Badge } from '@/components/ui/badge';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Avatar, AvatarFallback } from '@/components/ui/avatar';
-import NotificationCenter from '@/components/notifications/NotificationCenter';
+} from '@/ui/dropdown-menu';
+import { Badge } from '@/ui/badge';
+import { Sheet, SheetContent, SheetTrigger } from '@/ui/sheet';
+import { Avatar, AvatarFallback } from '@/ui/avatar';
+import NotificationCenter from '@/notifications/NotificationCenter';
 
 // Import the logo
 import logoImage from '/lovable-uploads/629a36a7-2859-4c33-9657-12a1dfea41ed.png';

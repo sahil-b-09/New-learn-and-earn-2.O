@@ -5,16 +5,16 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { Lesson, createLesson, updateLesson } from '@/services/courseManagementService';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Textarea } from '@/ui/textarea';
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogFooter,
-} from '@/components/ui/dialog';
+} from '@/ui/dialog';
 import {
   Form,
   FormControl,
@@ -23,7 +23,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '@/components/ui/form';
+} from '@/ui/form';
 import { Loader2, Save } from 'lucide-react';
 
 const lessonSchema = z.object({

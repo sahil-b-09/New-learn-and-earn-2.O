@@ -3,7 +3,7 @@ import React from 'react';
 import { Navigate, Outlet, useLocation } from 'react-router-dom';
 import { useAuth } from '@/context/AuthContext';
 import { ShieldAlert } from 'lucide-react';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Alert, AlertDescription, AlertTitle } from '@/ui/alert';
 
 interface ProtectedRouteProps {
   requireAdmin?: boolean;

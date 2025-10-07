@@ -1,25 +1,25 @@
 
-import React, { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
+import React, { useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
 import { 
   Card, 
   CardContent,
   CardDescription, 
   CardHeader, 
   CardTitle 
-} from "@/components/ui/card";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+} from '@/ui/card';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/ui/tabs';
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
+} from '@/ui/dialog';
 
-import { getContentManagementLogs, ContentManagementLog } from "@/services/contentManagementService";
-import CourseListView from "./content/CourseListView";
-import { Edit, Trash, Plus, File, FolderClosed, Book, Eye, EyeOff, Calendar } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { getContentManagementLogs, ContentManagementLog } from '@/services/contentManagementService';
+import CourseListView from './content/CourseListView';
+import { Edit, Trash, Plus, File, FolderClosed, Book, Eye, EyeOff, Calendar } from 'lucide-react';
+import { Button } from '@/ui/button';
 import {
   Table,
   TableBody,
@@ -28,8 +28,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
-import { Badge } from "@/components/ui/badge";
+} from '@/ui/table';
+import { Badge } from '@/ui/badge';
 
 interface LogsTableProps {
   logs: ContentManagementLog[];

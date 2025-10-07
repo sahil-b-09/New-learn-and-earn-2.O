@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Button } from '@/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
+import { Alert, AlertDescription } from '@/ui/alert';
 import { RefreshCw, AlertCircle, Users, TrendingUp, ShoppingBag, DollarSign, ArrowUpRight, ArrowDownRight } from 'lucide-react';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Separator } from '@/components/ui/separator';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/ui/tabs';
+import { Separator } from '@/ui/separator';
 import AnalyticsPeriodSelector from './AnalyticsPeriodSelector';
 import MetricCard from './MetricCard';
 import AnalyticsChart from './AnalyticsChart';
@@ -16,7 +16,7 @@ import {
   fetchDashboardSummary,
   DailyMetric
 } from '@/services/analyticsService';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '@/ui/use-toast';
 
 const AnalyticsDashboard: React.FC = () => {
   const [selectedDays, setSelectedDays] = useState(30);

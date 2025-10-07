@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Alert, AlertDescription } from '@/ui/alert';
 import { Loader2, UserPlus, UserMinus, Users } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '@/ui/use-toast';
 import { 
   Sheet,
   SheetContent,
@@ -13,7 +13,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger 
-} from '@/components/ui/sheet';
+} from '@/ui/sheet';
 
 interface AdminResult {
   success: boolean;

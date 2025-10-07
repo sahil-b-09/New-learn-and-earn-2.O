@@ -6,7 +6,7 @@ import {
   DialogDescription, 
   DialogHeader, 
   DialogTitle 
-} from '@/components/ui/dialog';
+} from '@/ui/dialog';
 import PayoutMethodsList from './PayoutMethodsList';
 
 interface PayoutMethodDialogProps {
