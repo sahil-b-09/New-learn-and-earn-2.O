@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { CheckCircle, BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
+import { CircleCheck as CheckCircle, BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
 import { Progress } from '@/ui/progress';
 import { Button } from '@/ui/button';
 import { CourseWithProgress } from '@/types/course';

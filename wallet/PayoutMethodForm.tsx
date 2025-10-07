@@ -17,7 +17,7 @@ import {
 import { Input } from '@/ui/input';
 import { Button } from '@/ui/button';
 import { RadioGroup, RadioGroupItem } from '@/ui/radio-group';
-import { Loader2 } from 'lucide-react';
+import { Loader as Loader2 } from 'lucide-react';
 
 const upiSchema = z.object({
   method_type: z.literal('UPI'),

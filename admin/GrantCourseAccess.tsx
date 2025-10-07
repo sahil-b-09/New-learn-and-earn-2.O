@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { toast } from 'sonner';
 import { supabase } from '@/integrations/supabase/client';
 import { useAuth } from '@/context/AuthContext';
-import { Loader2, Users, BookOpen, Search } from 'lucide-react';
+import { Loader as Loader2, Users, BookOpen, Search } from 'lucide-react';
 
 interface Course {
   id: string;

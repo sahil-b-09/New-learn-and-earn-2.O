@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
 import { supabase } from '@/integrations/supabase/client';
 import { Button } from '@/ui/button';
 import { Badge } from '@/ui/badge';
-import { Clock, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
+import { Clock, CircleCheck as CheckCircle, CircleAlert as AlertCircle, Loader as Loader2 } from 'lucide-react';
 import {
   Table,
   TableBody,

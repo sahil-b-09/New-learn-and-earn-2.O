@@ -6,7 +6,7 @@ import { Button } from '@/ui/button';
 import { Input } from '@/ui/input';
 import { Label } from '@/ui/label';
 import { Card, CardContent } from '@/ui/card';
-import { AlertCircle, Loader2 } from 'lucide-react';
+import { CircleAlert as AlertCircle, Loader as Loader2 } from 'lucide-react';
 import { Alert, AlertDescription } from '@/ui/alert';
 import { toast } from 'sonner';
 import { useOptimizedWallet } from '@/hooks/useOptimizedWallet';

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button } from '@/ui/button';
-import { Loader2, RefreshCw, Database, Plus, TestTube, Trash2, CheckCircle } from 'lucide-react';
+import { Loader as Loader2, RefreshCw, Database, Plus, TestTube, Trash2, CircleCheck as CheckCircle } from 'lucide-react';
 import { useToast } from '@/ui/use-toast';
 import { triggerInitialization } from '@/utils/autoSetupCourses';
 import { supabase } from '@/integrations/supabase/client';

@@ -18,7 +18,7 @@ import {
 
 import { getContentManagementLogs, ContentManagementLog } from '@/services/contentManagementService';
 import CourseListView from './content/CourseListView';
-import { Edit, Trash, Plus, File, FolderClosed, Book, Eye, EyeOff, Calendar } from 'lucide-react';
+import { CreditCard as Edit, Trash, Plus, File, FolderClosed, Book, Eye, EyeOff, Calendar } from 'lucide-react';
 import { Button } from '@/ui/button';
 import {
   Table,

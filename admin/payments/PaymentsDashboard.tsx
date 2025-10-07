@@ -3,7 +3,7 @@ import { useQuery } from '@tanstack/react-query';
 import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/ui/tabs';
 import { supabase } from '@/integrations/supabase/client';
-import { CreditCard, ArrowUpRight, ArrowDownLeft, HelpCircle, Loader2, Download, RefreshCw } from 'lucide-react';
+import { CreditCard, ArrowUpRight, ArrowDownLeft, CircleHelp as HelpCircle, Loader as Loader2, Download, RefreshCw } from 'lucide-react';
 import {
   Table,
   TableBody,

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { CheckCircle } from 'lucide-react';
+import { CircleCheck as CheckCircle } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/ui/accordion';
 import { Module, UserProgress } from '@/types/course';
 

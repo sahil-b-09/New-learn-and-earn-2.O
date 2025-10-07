@@ -4,7 +4,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { Course, getAllCourses, deleteCourse, publishCourse, unpublishCourse } from '@/services/courseManagementService';
 import { Button } from '@/ui/button';
 import { Input } from '@/ui/input';
-import { Trash, Edit, EyeOff, Eye, Loader2, Plus, Search } from 'lucide-react';
+import { Trash, CreditCard as Edit, EyeOff, Eye, Loader as Loader2, Plus, Search } from 'lucide-react';
 import {
   Table,
   TableBody,

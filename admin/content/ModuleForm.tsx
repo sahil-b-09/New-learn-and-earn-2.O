@@ -24,7 +24,7 @@ import {
   FormLabel,
   FormMessage,
 } from '@/ui/form';
-import { Loader2, Save } from 'lucide-react';
+import { Loader as Loader2, Save } from 'lucide-react';
 
 const moduleSchema = z.object({
   title: z.string().min(3, 'Title must be at least 3 characters'),

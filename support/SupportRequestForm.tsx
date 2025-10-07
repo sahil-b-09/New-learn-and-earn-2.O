@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Button } from '@/ui/button';
 import { Input } from '@/ui/input';
 import { Textarea } from '@/ui/textarea';
-import { Loader2 } from 'lucide-react';
+import { Loader as Loader2 } from 'lucide-react';
 import { createSupportTicket } from '@/services/supportService';
 import { toast } from 'sonner';
 import { useAuth } from '@/context/AuthContext';

@@ -5,12 +5,7 @@ import { Course, getCourseById } from '@/services/courseManagementService';
 import { Button } from '@/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
 import { Badge } from '@/ui/badge';
-import { 
-  ArrowLeft, 
-  Edit, 
-  ExternalLink,
-  Loader2,
-} from 'lucide-react';
+import { ArrowLeft, CreditCard as Edit, ExternalLink, Loader as Loader2 } from 'lucide-react';
 import CourseForm from './CourseForm';
 import ModuleManagement from './ModuleManagement';
 

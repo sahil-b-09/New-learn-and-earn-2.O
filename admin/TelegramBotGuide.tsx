@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/ui/alert';
-import { Check, Copy, AlertTriangle } from 'lucide-react';
+import { Check, Copy, TriangleAlert as AlertTriangle } from 'lucide-react';
 import { Button } from '@/ui/button';
 import { useState } from 'react';
 

@@ -10,28 +10,7 @@ import { Switch } from '@/ui/switch';
 import { Progress } from '@/ui/progress';
 import { Alert, AlertDescription } from '@/ui/alert';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/ui/select';
-import { 
-  Server, 
-  Database, 
-  Activity, 
-  Settings, 
-  AlertTriangle,
-  CheckCircle,
-  Clock,
-  Cpu,
-  HardDrive,
-  Wifi,
-  RefreshCw,
-  Settings2,
-  Mail,
-  Users,
-  BookOpen,
-  BarChart3,
-  Shield,
-  FileText,
-  Monitor,
-  Zap
-} from 'lucide-react';
+import { Server, Database, Activity, Settings, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Clock, Cpu, HardDrive, Wifi, RefreshCw, Settings2, Mail, Users, BookOpen, ChartBar as BarChart3, Shield, FileText, Monitor, Zap } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from 'sonner';
 

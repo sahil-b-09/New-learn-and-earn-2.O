@@ -3,7 +3,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
 import { Button } from '@/ui/button';
 import { Progress } from '@/ui/progress';
-import { CheckCircle, Clock, PlayCircle, BookOpen, Award } from 'lucide-react';
+import { CircleCheck as CheckCircle, Clock, CirclePlay as PlayCircle, BookOpen, Award } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { useAuth } from '@/context/AuthContext';
 import { toast } from 'sonner';

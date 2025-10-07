@@ -7,7 +7,7 @@ import Footer from '@/layout/Footer';
 import WebCourseContent from '@/courses/WebCourseContent';
 import { supabase } from '@/integrations/supabase/client';
 import { Button } from '@/ui/button';
-import { ArrowLeft, AlertCircle } from 'lucide-react';
+import { ArrowLeft, CircleAlert as AlertCircle } from 'lucide-react';
 import { Alert, AlertDescription } from '@/ui/alert';
 
 interface Course {

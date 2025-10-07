@@ -4,15 +4,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { Module, Course, getModulesForCourse, deleteModule } from '@/services/courseManagementService';
 import { Button } from '@/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
-import { 
-  ChevronDown, 
-  ChevronUp, 
-  Edit, 
-  Trash, 
-  Plus,
-  Book,
-  Loader2
-} from 'lucide-react';
+import { ChevronDown, ChevronUp, CreditCard as Edit, Trash, Plus, Book, Loader as Loader2 } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,

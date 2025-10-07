@@ -6,7 +6,7 @@ import UnifiedHeader from '@/layout/UnifiedHeader';
 import Footer from '@/layout/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
 import { Button } from '@/ui/button';
-import { BookOpen, Clock, CheckCircle, ArrowRight } from 'lucide-react';
+import { BookOpen, Clock, CircleCheck as CheckCircle, ArrowRight } from 'lucide-react';
 import { getUserCourses, type CourseWithProgress } from '@/services/courseContentService';
 import { toast } from 'sonner';
 

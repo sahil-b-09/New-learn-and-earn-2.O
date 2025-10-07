@@ -8,29 +8,7 @@ import { Badge } from '@/ui/badge';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/ui/select';
 import { Alert, AlertDescription } from '@/ui/alert';
 import { Progress } from '@/ui/progress';
-import { 
-  DollarSign, 
-  TrendingUp, 
-  TrendingDown,
-  CreditCard,
-  RefreshCw,
-  ArrowUpRight,
-  ArrowDownLeft,
-  AlertTriangle,
-  CheckCircle,
-  Calendar,
-  BarChart3,
-  PieChart,
-  Target,
-  Receipt,
-  Wallet,
-  Building2,
-  FileText,
-  Download,
-  Eye,
-  Clock,
-  Building
-} from 'lucide-react';
+import { DollarSign, TrendingUp, TrendingDown, CreditCard, RefreshCw, ArrowUpRight, ArrowDownLeft, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Calendar, ChartBar as BarChart3, ChartPie as PieChart, Target, Receipt, Wallet, Building2, FileText, Download, Eye, Clock, Building } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from 'sonner';
 

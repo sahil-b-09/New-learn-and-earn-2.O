@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '@/ui/button';
 import { Input } from '@/ui/input';
 import { Alert, AlertDescription } from '@/ui/alert';
-import { Loader2, UserPlus, UserMinus, Users } from 'lucide-react';
+import { Loader as Loader2, UserPlus, UserMinus, Users } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { useToast } from '@/ui/use-toast';
 import { 

@@ -4,7 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import { Button } from '@/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card';
 import { Alert, AlertDescription } from '@/ui/alert';
-import { RefreshCw, AlertCircle, Users, TrendingUp, ShoppingBag, DollarSign, ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { RefreshCw, CircleAlert as AlertCircle, Users, TrendingUp, ShoppingBag, DollarSign, ArrowUpRight, ArrowDownRight } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/ui/tabs';
 import { Separator } from '@/ui/separator';
 import AnalyticsPeriodSelector from './AnalyticsPeriodSelector';

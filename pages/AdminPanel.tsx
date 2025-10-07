@@ -18,24 +18,7 @@ import MarketingDisplayDashboard from '@/admin/marketing/MarketingDisplayDashboa
 import { useQuery } from '@tanstack/react-query';
 import { supabase } from '@/integrations/supabase/client';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/ui/tabs';
-import { 
-  Activity,
-  Settings,
-  Users,
-  FileText,
-  MessageSquare,
-  CreditCard,
-  MessageCircle,
-  ShieldAlert,
-  Sparkles,
-  BarChart3,
-  TrendingUp,
-  DollarSign,
-  Megaphone,
-  UserCog,
-  Database,
-  Briefcase
-} from 'lucide-react';
+import { Activity, Settings, Users, FileText, MessageSquare, CreditCard, MessageCircle, ShieldAlert, Sparkles, ChartBar as BarChart3, TrendingUp, DollarSign, Megaphone, UserCog, Database, Briefcase } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from '@/ui/alert';
 
 const AdminPanel: React.FC = () => {

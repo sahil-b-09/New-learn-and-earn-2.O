@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Progress } from '@/ui/progress';
-import { BookOpen, CheckCircle, Clock } from 'lucide-react';
+import { BookOpen, CircleCheck as CheckCircle, Clock } from 'lucide-react';
 import { CourseWithProgress } from '@/types/course';
 
 interface CourseProgressSummaryProps {

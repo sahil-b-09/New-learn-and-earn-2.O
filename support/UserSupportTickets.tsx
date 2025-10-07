@@ -16,7 +16,7 @@ import {
   DialogTitle,
 } from '@/ui/dialog';
 import { Badge } from '@/ui/badge';
-import { Loader2, MessageCircle } from 'lucide-react';
+import { Loader as Loader2, MessageCircle } from 'lucide-react';
 import { Button } from '@/ui/button';
 import { formatDistanceToNow } from 'date-fns';
 

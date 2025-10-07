@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/ui/button';
-import { Loader2 } from 'lucide-react';
+import { Loader as Loader2 } from 'lucide-react';
 
 interface WithdrawButtonProps {
   balance: number;

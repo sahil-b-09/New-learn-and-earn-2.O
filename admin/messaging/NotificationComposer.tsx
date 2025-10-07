@@ -20,7 +20,7 @@ import {
 } from '@/ui/card';
 import { useAuth } from '@/context/AuthContext';
 import { createNotificationForAll } from '@/services/notificationService';
-import { Loader2 } from 'lucide-react';
+import { Loader as Loader2 } from 'lucide-react';
 import { toast } from 'sonner';
 
 const NotificationComposer: React.FC = () => {

@@ -24,7 +24,7 @@ import {
   DialogTitle,
   DialogFooter,
 } from '@/ui/dialog';
-import { Loader2, Save } from 'lucide-react';
+import { Loader as Loader2, Save } from 'lucide-react';
 import { Switch } from '@/ui/switch';
 import { toast } from 'sonner';
 

@@ -13,17 +13,7 @@ import { useToast } from '@/ui/use-toast';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
-import { 
-  Users, 
-  DollarSign, 
-  TrendingUp, 
-  Eye, 
-  EyeOff, 
-  Plus, 
-  Edit,
-  Star,
-  Settings
-} from 'lucide-react';
+import { Users, DollarSign, TrendingUp, Eye, EyeOff, Plus, CreditCard as Edit, Star, Settings } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from 'sonner';
 import { AccessGuard } from '@/ui/access-guard';

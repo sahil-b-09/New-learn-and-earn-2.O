@@ -5,23 +5,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/ui/tabs';
 import { Button } from '@/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/ui/select';
 import { Badge } from '@/ui/badge';
-import { 
-  TrendingUp, 
-  TrendingDown, 
-  Users, 
-  DollarSign, 
-  BookOpen, 
-  Target,
-  RefreshCw,
-  Download,
-  Calendar,
-  BarChart3,
-  PieChart,
-  Activity,
-  Zap,
-  Clock,
-  Award
-} from 'lucide-react';
+import { TrendingUp, TrendingDown, Users, DollarSign, BookOpen, Target, RefreshCw, Download, Calendar, ChartBar as BarChart3, ChartPie as PieChart, Activity, Zap, Clock, Award } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from 'sonner';
 import { formatDistanceToNow } from 'date-fns';

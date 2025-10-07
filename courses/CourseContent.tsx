@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { CheckCircle, BookOpen } from 'lucide-react';
+import { CircleCheck as CheckCircle, BookOpen } from 'lucide-react';
 import { Progress } from '@/ui/progress';
 import { Button } from '@/ui/button';
 import { Module, Lesson, UserProgress } from '@/types/course';

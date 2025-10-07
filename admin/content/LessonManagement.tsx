@@ -11,13 +11,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/ui/table';
-import { 
-  Edit,
-  Trash,
-  Plus,
-  File,
-  Loader2
-} from 'lucide-react';
+import { CreditCard as Edit, Trash, Plus, File, Loader as Loader2 } from 'lucide-react';
 import {
   AlertDialog,
   AlertDialogAction,
