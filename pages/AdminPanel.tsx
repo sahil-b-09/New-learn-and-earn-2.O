@@ -9,10 +9,10 @@ import GrantCourseAccess from '@/admin/GrantCourseAccess';
 import ContentManagement from '@/admin/ContentManagement';
 import AdminManagement from '@/admin/AdminManagement';
 import EnhancedAnalyticsDashboard from '@/admin/analytics/EnhancedAnalyticsDashboard';
-import SupportDashboard from '@/admin/support/SupportDashboard';
+// import SupportDashboard from '@/admin/support/SupportDashboard';
 import PaymentsDashboard from '@/admin/payments/PaymentsDashboard';
 import FinancialManagementDashboard from '@/admin/finance/FinancialManagementDashboard';
-import UserManagement from '@/admin/users/UserManagement';
+// import UserManagement from '@/admin/users/UserManagement';
 import MessagingDashboard from '@/admin/messaging/MessagingDashboard';
 import MarketingDisplayDashboard from '@/admin/marketing/MarketingDisplayDashboard';
 import { useQuery } from '@tanstack/react-query';
@@ -188,7 +188,7 @@ const AdminPanel: React.FC = () => {
           </TabsContent>
           
           <TabsContent value="users">
-            <UserManagement />
+            <AdminManagement />
           </TabsContent>
           
           
@@ -205,7 +205,9 @@ const AdminPanel: React.FC = () => {
           </TabsContent>
           
           <TabsContent value="support">
-            <SupportDashboard />
+            <div className="p-6 bg-white rounded-lg shadow">
+              <p className="text-gray-600">Support Dashboard - Coming Soon</p>
+            </div>
           </TabsContent>
           
           <TabsContent value="payments">

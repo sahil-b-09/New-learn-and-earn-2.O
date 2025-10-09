@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import Header from '@/layout/Header';
 import Footer from '@/layout/Footer';
-import SEOHead from '@/seo/SEOHead';
 import { Button } from '@/ui/button';
 import { Card, CardContent } from '@/ui/card';
 import { Badge } from '@/ui/badge';
@@ -110,7 +110,9 @@ const CourseDetail: React.FC = () => {
   if (isLoading) {
     return (
       <>
-        <SEOHead title="Loading Course..." />
+        <Helmet>
+          <title>Loading Course... | Learn & Earn</title>
+        </Helmet>
         <div className="flex flex-col min-h-screen bg-gray-50">
           <Header />
           <main className="flex-grow flex items-center justify-center">
@@ -128,7 +130,9 @@ const CourseDetail: React.FC = () => {
   if (!course) {
     return (
       <>
-        <SEOHead title="Course Not Found" />
+        <Helmet>
+          <title>Course Not Found | Learn & Earn</title>
+        </Helmet>
         <div className="flex flex-col min-h-screen bg-gray-50">
           <Header />
           <main className="max-w-[1200px] mx-auto w-full px-6 py-8 flex-grow">
@@ -149,13 +153,10 @@ const CourseDetail: React.FC = () => {
 
   return (
     <>
-      <SEOHead 
-        title={course.title}
-        description={course.description || `Learn ${course.title} through our comprehensive course. Earn ₹${course.referral_reward} per referral!`}
-        type="article"
-        url={`/course/${course.id}`}
-        image={course.thumbnail_url || undefined}
-      />
+      <Helmet>
+        <title>{course.title} | Learn & Earn</title>
+        <meta name="description" content={course.description || `Learn ${course.title} through our comprehensive course. Earn ₹${course.referral_reward} per referral!`} />
+      </Helmet>
       <div className="flex flex-col min-h-screen bg-gray-50">
         <Header />
         <main className="max-w-[1200px] mx-auto w-full px-6 py-8 flex-grow">
